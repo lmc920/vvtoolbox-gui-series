@@ -35,7 +35,7 @@ https://github.com/xhlove/vvtoolbox-gui-series/releases
 ### 演示
 
 [生成默认配置](http://pan.iqiyi.com/ext/paopao/?token=eJxjYGBgmBQtsZUBBHZpsAEAFKICow.gif)
-[优酷普通加密m3u8下载](http://pan.iqiyi.com/ext/paopao/?token=eJxjYGBgmBQtsZUBBHZp3gAAFXYDdg.gif)
+[优酷普通加密m3u8下载](https://alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/customer-upload/1582218735033_85sdpcysnmwp.gif)
 
 ## 配置文件
 
