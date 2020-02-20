@@ -32,6 +32,11 @@ https://github.com/xhlove/vvtoolbox-gui-series/releases
 19. 开始/暂停/重新开始/删除/仅删除任务。属于多任务管理中的选项，目前暂未完成设计，功能暂不可用。
 20. Start!按钮。用于开始下载m3u8任务。
 
+### 演示
+
+[生成默认配置](http://pan.iqiyi.com/ext/paopao/?token=eJxjYGBgmBQtsZUBBHZpsAEAFKICow.gif)
+[优酷普通加密m3u8下载](http://pan.iqiyi.com/ext/paopao/?token=eJxjYGBgmBQtsZUBBHZp3gAAFXYDdg.gif)
+
 ## 配置文件
 
 - 没有填入m3u8地址/文件时，点击Start可以生成默认配置
@@ -41,6 +46,7 @@ https://github.com/xhlove/vvtoolbox-gui-series/releases
 
 ## 不支持的特性
 
+- 不支持多任务
 - 不支持master类型的m3u8下载
 - 不支持标准AES模式和优酷加密以外的解密方式
 - 不支持m3u8文件批量下载（暂时）
@@ -66,16 +72,31 @@ javascript:prompt(videoPlayer.getData()._videoData.title + " key", btoa(String.f
 
 ## 其他
 
+- 优酷视频语言不同，对应的key也不同。
 - 支持m3u8文件拖入。
 - 路径以及可执行程序（aria2c、ffmpeg）均支持拖入设定。
 - 64位系统请手动替换aria2c为64位版本，否则在某些版本的系统上无法正常更新下载进度！
-
+- ffmpeg同上，已知
 # 关于本软件
 
 - 闭源
 - 项目地址：https://github.com/xhlove/vvtoolbox-gui-series
 
+# 使用反馈
+
+- 联系方式 vvtoolbox.dev@gmail.com
+
+- Tips! 反馈时请尽可能提供准确的复现步骤和使用环境
+
 # 更新日志
+
+## 2020/2/20 v0.3.9
+
+1. 增加关键部分日志输出
+2. 对aria2c rpc查询异常捕获
+3. 提供32位、64位环境打包
+4. 暂时隐藏多任务有关按钮
+5. 配置文件支持记事本编辑
 
 ## 2020/2/20 v0.3.8
 
