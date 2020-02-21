@@ -72,11 +72,13 @@ javascript:prompt(videoPlayer.getData()._videoData.title + " key", btoa(String.f
 
 ## 其他
 
+- CSDN学院的m3u8解密方法请选AES-YK，key获取方法参见：https://blog.weimo.info/archives/440/
 - 优酷视频语言不同，对应的key也不同。
 - 支持m3u8文件拖入。
 - 路径以及可执行程序（aria2c、ffmpeg）均支持拖入设定。
 - 64位系统请手动替换aria2c为64位版本，否则在某些版本的系统上无法正常更新下载进度！
 - ffmpeg同上，已知
+
 # 关于本软件
 
 - 闭源
@@ -89,6 +91,10 @@ javascript:prompt(videoPlayer.getData()._videoData.title + " key", btoa(String.f
 - Tips! 反馈时请尽可能提供准确的复现步骤和使用环境
 
 # 更新日志
+
+## 2020/2/21 v0.4.0
+
+1. 适配csdn的m3u8下载解密
 
 ## 2020/2/20 v0.3.9
 
