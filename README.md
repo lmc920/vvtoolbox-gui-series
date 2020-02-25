@@ -5,7 +5,8 @@
 
 ## 下载地址
 
-https://github.com/xhlove/vvtoolbox-gui-series/releases
+- https://cloud.189.cn/t/yMRZBjequyYj
+- https://github.com/xhlove/vvtoolbox-gui-series/releases
 
 # 使用方式
 
@@ -91,6 +92,13 @@ javascript:prompt(videoPlayer.getData()._videoData.title + " key", btoa(String.f
 - Tips! 反馈时请尽可能提供准确的复现步骤和使用环境
 
 # 更新日志
+
+## 2020/2/25 v0.4.1
+
+1. 对自动命名可能出现的异常进行处理
+2. 增加全局异常捕获
+3. 优酷解密速度优化
+4. bug fix
 
 ## 2020/2/21 v0.4.0
 
