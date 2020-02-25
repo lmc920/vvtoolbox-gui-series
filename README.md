@@ -93,6 +93,12 @@ javascript:prompt(videoPlayer.getData()._videoData.title + " key", btoa(String.f
 
 # 更新日志
 
+## 2020/2/26 v0.4.2
+
+1. 芒果m3u8支持
+2. 默认配置增加针对特定网站下载/解析时的m3u8请求参数和aria2c参数，检测到匹配的m3u8后这些参数会自动设定
+3. bug fix
+
 ## 2020/2/25 v0.4.1
 
 1. 对自动命名可能出现的异常进行处理
