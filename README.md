@@ -93,6 +93,11 @@ javascript:prompt(videoPlayer.getData()._videoData.title + " key", btoa(String.f
 
 # 更新日志
 
+## 2020/3/7 v0.4.4
+
+1. 加入检查更新
+2. 发布MAC版本
+
 ## 2020/3/7 v0.4.3
 
 1. 修复保存m3u8时没有设定BASEURL的情况
@@ -103,7 +108,7 @@ javascript:prompt(videoPlayer.getData()._videoData.title + " key", btoa(String.f
 6. 统一打包命名方式
 
 注意！
-- 默认lintv的m3u8解密key会自动获取，此时务必选择系统代理或自定义代理，如果不使用代理则需要自行设定key，解密模式是AES-CBC。
+- 默认linetv的m3u8解密key会自动获取，此时务必选择系统代理或自定义代理，如果不使用代理则需要自行设定key，解密模式是AES-CBC。
 - 个别优酷老剧有解密合并后音画不同步，会在后续版本尝试修正。
 - 新的下载机制可能出现下载进度不更新，如果你确认有在下载，可耐心等待下载结束。
 - miguvideo的视频如果比较长且你的网速较慢，此时可能会出现末尾部分分段下载不成功，此时请重新获取m3u8下载（无需删除之前的分段）。
